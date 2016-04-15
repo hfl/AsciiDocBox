@@ -1,6 +1,6 @@
 <!doctype html><meta charset=utf-8><title> Try Asciidoc in your browser </title>
 <link rel="stylesheet" href="cm/lib/codemirror.css">
-<link rel="stylesheet" href="asciidoc.css">
+<link rel="stylesheet" href="css/asciidoc.css">
 <style>
   html, .CodeMirror, .CodeMirror-scroll {
     height: 100%;
@@ -11,7 +11,7 @@
     box-shadow: 0px 0px 3px #bbb inset;
     border: 0;
   }
-  .CodeMirror { font-family: DejaVu Sans Mono, monospace; font-size: 10px; }
+  .CodeMirror { font-family: DejaVu Sans Mono, monospace; font-size: 14px; }
   body {
     margin: auto;
     width: 90%;
@@ -58,15 +58,15 @@
 <div id='website-link'>
   <a href="/">主页</a>
   <a href="/write">写</a>
-  测试 | 
+  测试 |
   <a href='http://asciidoc.org'>AsciiDoc website</a>
   <a href='https://github.com/espadrine/AsciiDocBox/'>Code on GitHub</a>
 </div>
 
 <script src='cm/lib/codemirror.js'></script>
 <script src='cm/mode/asciidoc/asciidoc.js'></script>
-<script src='opal.js'></script>
-<script src='asciidoc.js'></script>
+<script src='js/opal.js'></script>
+<script src='js/asciidoc.js'></script>
 <script>
 (function SetEditor() {
 

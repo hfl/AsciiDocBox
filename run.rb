@@ -7,3 +7,7 @@ end
 get '/write' do
   erb :write
 end
+
+post '/save' do
+  'saved'
+end
