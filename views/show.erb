@@ -17,15 +17,7 @@
 			<div class="content-top">
 
 					<h2>近期更新作品</h2>
-					<ul>
-						<% @articles.each do |article| %>
-						<li>
-							<a href="/show/<%= article.id %>"> <%= article.asciidoc_content %>
-							<i>http//example.com</i></a>
-							<span><%= article.created_at %><span>
-						</li>
-						<% end %>
-					</ul>
+					<%= @article.asciidoc_content %>
 					<p>更多内容查看<a href="/">归档</a>，或者开始<a href="/write">写作</a>  </p>
 			</div>
 		</div>
