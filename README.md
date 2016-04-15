@@ -1,13 +1,13 @@
-# Live AsciiDoc Editor
+# ADBW -- AsciiDoc Box for Writer
 
-Edit AsciiDoc live in your browser.
+最简洁的本地AsciiDoc格式文本编辑器。
 
-This project is front-end only, so that all you need to do is open `index.html`
-in your browser and start writing!
+# 程序使用前提条件：
 
-Released under the MIT license.
+* Ruby 1.9 以上
+* Gem （Ruby 程序内带）
+* Sinatra
 
-Parts from <https://github.com/asciidoctor/asciidoctor.js>.
-Portions of the ace2cm project used to provide the CodeMirror mode are covered
-by the BSD license of the Ace project.
-Find the license here: <https://raw.githubusercontent.com/ajaxorg/ace/master/LICENSE>.
+## 运行程序
+
+在根目录下运行 `ruby run.rb` 即可，然后访问 localhost:4567 。
